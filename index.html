@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Evox VR Tour</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="scene-pano"
+      data-path="https://...cloudfront.net/interior_vr_gear/MY2020/AIL13803_2048/Interior/AIL13803_pavr/AIL13803_pavr"
+    ></div>
+    <script src="./javascript/vendor/three.js"></script>
+    <script src="./javascript/vendor/OrbitControls.js"></script>
+    <script src="./javascript/lib/app.js" type="module"></script>
+  </body>
+</html>
