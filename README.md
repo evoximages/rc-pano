@@ -4,7 +4,7 @@
 
 ## Description
 
-Due to particular conflicts and breaking changes between A-Frame, Three.js, and Chrome, this version attempts to not only fix said issue but to hopefully prevent future complications by removing a layer of abstraction by removing A-Frame as a dependency all together without sacrificing overall user experience.
+Due to particular conflicts and breaking changes between A-Frame, Three.js, and Chrome, this version removes A-Frame as a dependency without sacrificing overall user experience.
 
 ## Changelog
 
